@@ -1,5 +1,5 @@
 {
-  "name": "guapi-func.js",
+  "name": "gpfunc.js",
   "version": "0.1.0",
   "description": "A tool library based on functional programming.",
   "main": "lib/cmjs/index.js",
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/guapi-coder/guapi-func/issues"
   },
-  "homepage": "https://github.com/guapi-coder/guapi-func#readme"
+  "homepage": "https://github.com/guapi-coder/guapi-func#readme",
+  "dependencies": {
+    "gpfunc.js": "^0.1.0"
+  }
 }
