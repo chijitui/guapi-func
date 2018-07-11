@@ -1,0 +1,27 @@
+{
+  "name": "guapi-func",
+  "version": "0.1.0",
+  "description": "A tool library based on functional programming.",
+  "main": "lib/cmjs/index.js",
+  "module": "lib/es6/index.js",
+  "scripts": {
+    "build:cmjs": "tsc -P tsconfig.json",
+    "build:es6": "tsc -P tsconfig.json --module ES6 --outDir lib/es6",
+    "build:web": "browserify dist/cmjs/index.js --standalone myLib -o lib/web/bundle.js",
+    "build": "npm run build:cmjs && npm run build:es6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guapi-coder/guapi-func.git"
+  },
+  "keywords": [
+    "functional",
+    "javascript"
+  ],
+  "author": "xiaozixiang <Guapi Coder>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guapi-coder/guapi-func/issues"
+  },
+  "homepage": "https://github.com/guapi-coder/guapi-func#readme"
+}
