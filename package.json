@@ -1,5 +1,5 @@
 {
-  "name": "guapi-func",
+  "name": "guapi-func.js",
   "version": "0.1.0",
   "description": "A tool library based on functional programming.",
   "main": "lib/cmjs/index.js",
@@ -18,7 +18,7 @@
     "functional",
     "javascript"
   ],
-  "author": "xiaozixiang <Guapi Coder>",
+  "author": "chijitui <johnxiao675@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/guapi-coder/guapi-func/issues"
