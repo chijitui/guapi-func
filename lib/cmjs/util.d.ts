@@ -1,4 +1,4 @@
-declare function getType(value: any): any;
+declare function getType(value: any): string;
 declare function isObject(value: any): boolean;
 declare function isArray(value: any): boolean;
 declare function isBoolean(value: any): boolean;
